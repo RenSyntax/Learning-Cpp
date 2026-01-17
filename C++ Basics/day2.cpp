@@ -1,4 +1,4 @@
-// Project, Making Age Calculator. Acurracy only Years.
+// Project, Simple Age Calculator. Acurracy only Years.
 
 #include <iostream>
 using namespace std;
