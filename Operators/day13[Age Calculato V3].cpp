@@ -1,4 +1,7 @@
 // Age calculator Fix
+// hard coded so it failed for the third time 😅😅.
+// one day i will make a perfect Age calculator.......
+
 
 #include <iostream>
 using namespace std;
