@@ -34,13 +34,19 @@ int main() {
     // the only diffrence is that it first executes a block a code and then execute a while code after that.
     // just like the name suggest, first it 'do' a fixed piece of code then 'while' loop another code block.
 
+
+    // Explaination;
+    /*
+    This code basically says that, do the above code while choice != 'y'.
+    But when it becomes otherwise then below code will be executed.
+    */
     char choice;
     do {
         cout << "Are you dumb ?(y/n)" << endl;
         cin >> choice;
 
     } while(choice != 'y');
-    cout << "Think agian" << endl;
+    cout << "Atleast, You Know Reality." << endl;
     return 0;
 
 
