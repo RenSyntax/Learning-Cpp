@@ -5,7 +5,7 @@ So there are three types of loops,
 3. do-while loop
 */
 
-#include <isotream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -16,19 +16,19 @@ int main() {
         cout << "This Is for loop." << endl;
     }
 
-    cout << "-----------------------------------" << end;
+    cout << "-----------------------------------" << endl;
 
     // now lets see at while loop, while loop is used when repeatation is variable.
     // why not for loop ? becasue world love us begaineer to suffer, just kidding,
     // the real reason is becasue it looks clean and cool with variable. thats it.
 
-    int y = 1
+    int y = 1;
     while(y <= 4) {
         cout << "This is while loop." << endl;
-        y++
+        y++;
     }
 
-    cout << "-----------------------------------" << end;
+    cout << "-----------------------------------" << endl;
 
     // lets see the main thing now the, do-while loop.
     // the only diffrence is that it first executes a block a code and then execute a while code after that.
