@@ -1,4 +1,5 @@
-# 🚀 My C++ Learning Journey(Only The Topics Needed For DSA)
+# 🚀 My C++ Learning Journey
+(Only The Topics Needed For DSA)
 
 This repository is a collection of my progress as I learn C++(Only DSA Specific Topics). 
 I am documenting every step i take, from "Hello World" to complex data structures, every day.
@@ -11,5 +12,5 @@ I am documenting every step i take, from "Hello World" to complex data structure
 -    **Standard Template Library (STL)**
 
 ## 📁 Project Highlights
-- **[ATM Simulator](./Operators/atm_simulator.cpp):** Uses if/else startements.
+- **[ATM Simulator](./Operators/atm_simulator.cpp):** Uses if/else statements.
 - **[To-Do List](./Control_Structure_Function/to_do_list.cpp):** Simple To-do list Program Using if/else statement.
