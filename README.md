@@ -1,21 +1,15 @@
-# Learning Cpp and DSA.
+# 🚀 My C++ Learning Journey(Only The Topics Needed For DSA)
 
-Hello this repo is about my journey of learning C++ from scratch.
-starting from 16th of jan 2026.
+This repository is a collection of my progress as I learn C++(Only DSA Specific Topics). 
+I am documenting every step i take, from "Hello World" to complex data structures, every day.
 
--------------------------------------------------------------------------------
+## 🛠️ Concepts Targets To Master:
+- ✅ **Introduction To Cpp** Completed
+- ✅ **C++ Basics** Completed
+- ✅ **Operators in C++** Completed
+-    **Control Structures and Functions** In Progress
+-    **Standard Template Library (STL)**
 
-# My target is to learn all these topics by by the end of March 2026.
-The list of topics to be covered:
-1. Introduction to C++ ✅
-2. C++ Basics ✅
-3. Operators in C++ ✅
-4. Control Structures and Functions
-5. Object Oriented Programming (OOP)
-6. Constructors and Destructors
-7. Inheritance
-8. Polymorphism and Virtual Functions
-9. Operator Overloading and Templates
-10. Exception Handling
-11. File Handling
-12. Standard Template Library (STL)
+## 📁 Project Highlights
+- **[ATM Simulator](./Operators/atm_simulator.cpp):** Uses if/else startements.
+- **[To-Do List](./Control_Structure_Function/to_do_list.cpp):** Simple To-do list Program Using if/else statement.
