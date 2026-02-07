@@ -49,6 +49,5 @@ int main() {
     cout << "Atleast, You Know Reality." << endl;
     return 0;
 
->>>>>>> 13546cb (Update)
-
+    
 }
