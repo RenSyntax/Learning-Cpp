@@ -22,7 +22,7 @@ int main() {
         cin >> userChoise;
 
         switch(userChoise) {
-            case 1:
+            case 1: {
             cout << "Please Enter The Amount: ";
             cin >> deposit;
 
@@ -38,8 +38,10 @@ int main() {
                 cout << "Wrong Pin, Remmaing Attempts(" << 3-i << "/3)" << endl;
                 i++;
              }
+             break;
 
             }
+            
 
             if (pinCorrect) {
                 balance += deposit;
@@ -47,8 +49,9 @@ int main() {
                 cout << "Your Balance Has Been Updated" << endl;
                 cout << "-------------------------" << endl;
             }
+         }
 
-            case 2:
+            case 2: {
             cout << "Enter The Amount: ";
             cin >> withdraw;
 
@@ -81,8 +84,9 @@ int main() {
                 cout << "Your Transaction Successful" << endl;
                 cout << "---------------------------" << endl;
             }
+           }
 
-            case 3:
+            case 3: {
 
             int k = 1;
             while(k <= 3) {
@@ -101,8 +105,9 @@ int main() {
             if (pinCorrect) {
                 cout << "Your Balance: " << balance << endl;
             }
+          }
 
-            case 4: 
+            case 4: { 
 
              int l = 1;
              while(l <= 3) {
@@ -116,9 +121,9 @@ int main() {
                 cout << "Wrong Pin, Remmaing Attempts(" << 3-l << "/3)" << endl;
                 l++;
              }
-            }
+             }
 
-            if (pinCorrect) { 
+             if (pinCorrect) { 
                 cout << "Enter Your New Pin: ";
                 cin >> newPin;
 
@@ -127,6 +132,7 @@ int main() {
                 cout << "--------------------" << endl;
 
             }
+           }
              
 
 
