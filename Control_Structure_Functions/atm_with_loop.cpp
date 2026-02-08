@@ -38,12 +38,13 @@ int main() {
                 cout << "Wrong Pin, Remmaing Attempts(" << 3-i << "/3)" << endl;
                 i++;
              }
+             if (i == 0) {
+                break;
+             }
              
 
              }
-            if (i == 0) {
-                break;
-            }
+            
             
 
             if (pinCorrect) {
