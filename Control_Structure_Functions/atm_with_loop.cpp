@@ -27,7 +27,7 @@ int main() {
             cin >> deposit;
 
             int i = 1;
-            while(i <= 3) {
+             while(i <= 3) {
              cout << "Please Enter Your Pin: ";
              cin >> userAttempt;
 
@@ -38,8 +38,11 @@ int main() {
                 cout << "Wrong Pin, Remmaing Attempts(" << 3-i << "/3)" << endl;
                 i++;
              }
-             break;
+             
 
+             }
+            if (i == 0) {
+                break;
             }
             
 
