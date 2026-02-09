@@ -2,8 +2,9 @@
 using namespace std;
 
 int main() {
-   
+
     int balance{};
+    int pin{7635};
 
     while(true) {
         int userChoise{};
@@ -11,7 +12,6 @@ int main() {
         int withdraw{};
         int newPin{};
         int userAttempt{};
-        int pin{7635};
         bool pinCorrect = false;
 
         cout << "-------------------------" << endl;
