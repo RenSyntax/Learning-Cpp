@@ -2,12 +2,13 @@
 using namespace std;
 
 int main() {
+   
+    int balance{};
 
     while(true) {
         int userChoise{};
         int deposit{};
         int withdraw{};
-        int balance{};
         int newPin{};
         int userAttempt{};
         int pin{7635};
