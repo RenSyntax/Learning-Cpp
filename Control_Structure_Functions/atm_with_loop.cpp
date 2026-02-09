@@ -31,6 +31,10 @@ int main() {
              cout << "Please Enter Your Pin: ";
              cin >> userAttempt;
 
+             if (i == 3){
+               break;
+             }
+
              if (userAttempt == pin) {
                 pinCorrect = true; 
                 break;
@@ -38,12 +42,8 @@ int main() {
                 cout << "Wrong Pin, Remmaing Attempts(" << 3-i << "/3)" << endl;
                 i++;
              }
-             if (i == 0) {
-                break;
-             }
+         
               }
-            
-            
 
             if (pinCorrect) {
                 balance += deposit;
@@ -51,8 +51,11 @@ int main() {
                 cout << "Your Balance Has Been Updated" << endl;
                 cout << "-------------------------" << endl;
                 break; 
+            } else {
+               cout << "Access Denied" << endl;
+               break;
             }
-         }
+          }
 
             case 2: {
             cout << "Enter The Amount: ";
