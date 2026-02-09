@@ -73,6 +73,10 @@ int main() {
              cout << "Please Enter Your Pin: ";
              cin >> userAttempt;
 
+             if (j == 3) {
+               break;
+             }
+
              if (userAttempt == pin) {
                 pinCorrect = true; 
                 break;
@@ -89,6 +93,10 @@ int main() {
                 cout << "---------------------------" << endl;
                 cout << "Your Transaction Successful" << endl;
                 cout << "---------------------------" << endl;
+                break;
+            } else{
+               cout << "Access Denied" << endl;
+               break;
             }
            }
 
@@ -98,6 +106,10 @@ int main() {
             while(k <= 3) {
              cout << "Please Enter Your Pin: ";
              cin >> userAttempt;
+
+             if (k == 3) {
+               break;
+             }
 
              if (userAttempt == pin) {
                 pinCorrect = true; 
@@ -110,6 +122,9 @@ int main() {
 
             if (pinCorrect) {
                 cout << "Your Balance: " << balance << endl;
+            } else {
+               cout << "Access Denied" << endl;
+               break;
             }
           }
 
