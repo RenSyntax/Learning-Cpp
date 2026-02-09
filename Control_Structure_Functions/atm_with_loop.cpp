@@ -122,6 +122,7 @@ int main() {
 
             if (pinCorrect) {
                 cout << "Your Balance: " << balance << endl;
+                break;
             } else {
                cout << "Access Denied" << endl;
                break;
@@ -135,13 +136,17 @@ int main() {
              cout << "Please Enter Your Pin: ";
              cin >> userAttempt;
 
+             if (l == 3){
+               break;
+             }
+
              if (userAttempt == pin) {
                 pinCorrect = true; 
                 break;
              } else {
                 cout << "Wrong Pin, Remmaing Attempts(" << 3-l << "/3)" << endl;
                 l++;
-             }
+             } 
              }
 
              if (pinCorrect) { 
@@ -151,7 +156,11 @@ int main() {
                 cout << "--------------------" << endl;
                 cout << "Your Pin Is Updated" << endl;
                 cout << "--------------------" << endl;
+                break;
 
+            } else {
+               cout << "Access Denied" << endl;
+               break;
             }
            }
              
