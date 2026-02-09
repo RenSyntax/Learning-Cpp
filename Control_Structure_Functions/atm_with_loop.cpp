@@ -162,15 +162,7 @@ int main() {
                cout << "Access Denied" << endl;
                break;
             }
-           }
-             
-
-
-
-
-
-
-           
+           }    
 
 
         }
