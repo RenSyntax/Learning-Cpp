@@ -41,9 +41,7 @@ int main() {
              if (i == 0) {
                 break;
              }
-             
-
-             }
+              }
             
             
 
@@ -52,6 +50,7 @@ int main() {
                 cout << "-------------------------" << endl;
                 cout << "Your Balance Has Been Updated" << endl;
                 cout << "-------------------------" << endl;
+                break; 
             }
          }
 
