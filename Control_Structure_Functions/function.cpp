@@ -4,6 +4,7 @@
 using namespace std;
 #include <string>
 
+// Its a function which we can define to do automate some work.
 string hello(int x, int y) {
     int z{1};
     while(z <= x) {
