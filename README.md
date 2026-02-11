@@ -1,7 +1,7 @@
 # 🚀 My C++ Learning Journey
 (Only The Topics Needed For DSA)
 
-This repository is a collection of my progress as I learn C++(Only DSA Specific Topics). 
+This repository is a collection of my progress as I learn C++ (Only DSA Specific Topics). 
 I am documenting every step i take, from "Hello World" to complex data structures, every day.
 
 ## 🛠️ Concepts Targets To Master:
