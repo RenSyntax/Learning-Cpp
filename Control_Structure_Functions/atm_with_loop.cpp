@@ -17,6 +17,8 @@ int main() {
         int withdraw{};
         int newPin{};
         int userAttempt{};
+
+        // using a bool value is perfect and looks way better and clean then standard int variable.
         bool pinCorrect = false;
 
         cout << "-------------------------" << endl;
