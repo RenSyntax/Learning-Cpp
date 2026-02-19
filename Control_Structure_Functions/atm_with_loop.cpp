@@ -6,7 +6,8 @@ using namespace std;
 
 int main() {
 
-   // i have taken th
+   // i have taken added these specific variables outside the main loop becasue,
+   // it makes sure that it doesnt resets back to defalt value after the programe auto restarts(loops).
     int balance{};
     int pin{7635};
 
