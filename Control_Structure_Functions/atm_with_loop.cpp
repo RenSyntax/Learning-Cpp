@@ -38,6 +38,9 @@ int main() {
             cin >> deposit;
 
             int i = 1;
+
+            // Right now i have to copy paste this passward cheaker programe, but when i learn functions,
+            // it would look way more clearner and fast.
              while(i <= 3) {
              cout << "Please Enter Your Pin: ";
              cin >> userAttempt;
