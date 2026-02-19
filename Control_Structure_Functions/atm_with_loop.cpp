@@ -1,8 +1,12 @@
+// This isATM simulator with loops..
+// its a perfect example of how much easy and efficient you can make your code with loops.
+
 #include <iostream>
 using namespace std;
 
 int main() {
 
+   // i have taken th
     int balance{};
     int pin{7635};
 
