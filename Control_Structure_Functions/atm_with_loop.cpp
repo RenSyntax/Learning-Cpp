@@ -27,6 +27,9 @@ int main() {
         cout << "-------------------------" << endl;
         cin >> userChoise;
 
+        // i have used switch statement becasuse it looks way more better and clearner than if/else
+        // and are also somewhat better for loops.
+
         switch(userChoise) {
             case 1: {
             cout << "Please Enter The Amount: ";
