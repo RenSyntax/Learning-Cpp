@@ -1,5 +1,3 @@
-using namespace FileA;
-using namespace FileB;
 
 
 int main() {

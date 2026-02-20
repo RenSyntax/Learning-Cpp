@@ -3,7 +3,7 @@ using namespace std;
 
 
 namespace FileB {
-    void world() {
+    void print() {
 
         cout << "This is From File B\n";
 

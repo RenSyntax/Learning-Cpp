@@ -3,7 +3,7 @@ using namespace std;
 
 namespace FileA {
 
-    void hello() {
+    void print() {
         cout << "Hello World!!\n";
         cout << "This is File A\n";
     }
