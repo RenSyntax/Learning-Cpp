@@ -11,17 +11,17 @@ int pin{};
 // Here is a good Example, i will try to make a mini ATM simulator with functions.
 
 bool cheakPin(int a) {
-    int i{};
-
-    while(i <= 3){
+    int i{0};
+    while(i <= 3) {
+        if (a == pin) {
+        return true;
+       } else {
+        return false;
+         } 
 
     }
 
-    if (a == pin) {
-        return true;
-    } else {
-        return false;
-    } 
+  
 }
 
 int main() {
