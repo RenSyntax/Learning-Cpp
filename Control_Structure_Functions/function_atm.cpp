@@ -2,7 +2,7 @@
 
 #include <iostream>
 using namespace std;
-int pin{};
+int pin{546};
 int balance{};
 
 // So, function are basically automation scrips.
@@ -45,17 +45,21 @@ int main() {
       cout << "Please Enter The Amount: ";
       cin >> amount;
       switch (userInput) {
-      case 1 {
+      case 1: {
         balance += amount;
+        cout << "-------------------------";
+        cout << "Your Balance Has updated";
+        cout << "-------------------------";
       }
-      case 2 {
+      case 2: {
         balance -= amount;
-
+        cout << "-------------------------";
+        cout << "Your Balance Has updated";
+        cout << "-------------------------";
       }
       }
     } else {
       cout << "--> Access Denied <--";
-    
     }
   }
   return 0;
