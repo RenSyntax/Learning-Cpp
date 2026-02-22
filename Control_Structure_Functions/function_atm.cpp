@@ -3,7 +3,8 @@
 #include <iostream>
 using namespace std;
 int pin{546};
-int balance{};
+int balance{1000};
+#include <string>
 
 // So, function are basically automation scrips.
 // It lets you automate a specific function in your program so you dont have
@@ -12,7 +13,7 @@ int balance{};
 // Here is a good Example, i will try to make a mini ATM simulator with
 // functions.
 
-void userRecipt() {
+string userRecipt() {
   cout << "-------------------------\n";
   cout << "Your Balance Has updated\n";
   cout << "-------------------------\n";
