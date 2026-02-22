@@ -45,14 +45,18 @@ int main() {
       cout << "Please Enter The Amount: ";
       cin >> amount;
       switch (userInput) {
-      case 1: {
+      case 1 {
         balance += amount;
       }
       case 2 {
-        
+        balance -= amount;
 
       }
       }
+    } else {
+      cout << "--> Access Denied <--";
+    
     }
   }
+  return 0;
 }
