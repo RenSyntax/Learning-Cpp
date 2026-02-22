@@ -47,19 +47,19 @@ int main() {
       switch (userInput) {
       case 1: {
         balance += amount;
-        cout << "-------------------------";
-        cout << "Your Balance Has updated";
-        cout << "-------------------------";
+        cout << "-------------------------\n";
+        cout << "Your Balance Has updated\n";
+        cout << "-------------------------\n";
       }
       case 2: {
         balance -= amount;
-        cout << "-------------------------";
-        cout << "Your Balance Has updated";
-        cout << "-------------------------";
+        cout << "-------------------------\n";
+        cout << "Your Balance Has updated\n";
+        cout << "-------------------------\n";
       }
       }
     } else {
-      cout << "--> Access Denied <--";
+      cout << "--> Access Denied <--\n";
     }
   }
   return 0;
