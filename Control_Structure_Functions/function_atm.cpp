@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 int pin{};
+int balance{};
 
 // So, function are basically automation scrips.
 // It lets you automate a specific function in your program so you dont have
@@ -12,21 +13,45 @@ int pin{};
 // functions.
 
 bool cheakPin(int a) {
-  int i{0};
+  int i{1};
+
   while (i <= 3) {
     if (a == pin) {
       return true;
     } else {
-      return false;
+      if (i == 3) {
+        return false;
+      }
+      cout << "You Have " << 3 - i << "/3 Attempts Remmaing: ";
+      cin >> a;
+      ++i;
     }
   }
 }
 
 int main() {
-  int userInput{};
-  cout << "Press 1: Deposit\n";
-  cout << "Press 2: Withdraw\n";
-  cin >> userInput;
+  while (true) {
+    int userAttempt{};
+    int userInput{};
+    int amount{};
+    cout << "Press 1: Deposit\n";
+    cout << "Press 2: Withdraw\n";
+    cin >> userInput;
 
-  cout << ""
+    cout << "Please Enter Your PIN: ";
+    cin >> userAttempt;
+
+    if (cheakPin(userAttempt)) {
+      cout << "Please Enter The Amount: ";
+      cin >> amount;
+      switch (userInput) {
+      case 1: {
+        balance += amount;
+      }
+      case 2 {
+
+      }
+      }
+    }
+  }
 }
