@@ -12,6 +12,12 @@ int balance{};
 // Here is a good Example, i will try to make a mini ATM simulator with
 // functions.
 
+void userRecipt() {
+  cout << "-------------------------\n";
+  cout << "Your Balance Has updated\n";
+  cout << "-------------------------\n";
+}
+
 bool cheakPin(int a) {
   int i{1};
 
@@ -20,13 +26,14 @@ bool cheakPin(int a) {
       return true;
     } else {
       if (i == 3) {
-        return false;
+        break;
       }
       cout << "You Have " << 3 - i << "/3 Attempts Remmaing: ";
       cin >> a;
       ++i;
     }
   }
+  return false;
 }
 
 int main() {
@@ -35,8 +42,12 @@ int main() {
     int userInput{};
     int amount{};
     cout << "Press 1: Deposit\n";
-    cout << "Press 2: Withdraw\n";
+    cout << "Press 2: Withdraw\nPress 3: Exit\n";
     cin >> userInput;
+
+    if (userInput == 3) {
+      break;
+    }
 
     cout << "Please Enter Your PIN: ";
     cin >> userAttempt;
@@ -47,15 +58,13 @@ int main() {
       switch (userInput) {
       case 1: {
         balance += amount;
-        cout << "-------------------------\n";
-        cout << "Your Balance Has updated\n";
-        cout << "-------------------------\n";
+        cout << userRecipt();
+        break;
       }
       case 2: {
         balance -= amount;
-        cout << "-------------------------\n";
-        cout << "Your Balance Has updated\n";
-        cout << "-------------------------\n";
+        cout << userRecipt();
+        break;
       }
       }
     } else {
