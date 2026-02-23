@@ -13,12 +13,15 @@ int balance{1000};
 // Here is a good Example, i will try to make a mini ATM simulator with
 // functions.
 
+// String Function, didnt knew it existed untill now 😅
 string userRecipt() {
   cout << "-------------------------\n";
   cout << "Your Balance Has updated\n";
   cout << "-------------------------\n";
 }
 
+// Making a function for a specific task is far more faster and relevent then
+// copy and pasting it in every case or if/else statement.
 bool cheakPin(int a) {
   int i{1};
 
