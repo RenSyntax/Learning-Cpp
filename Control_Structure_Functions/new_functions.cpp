@@ -9,6 +9,11 @@ using namespace std;
 
 string line() { return "-----------------------------\n"; }
 
+// you can change the value of a variable by function using pointers:
+void changeValue(int *a) { *a = 120; }
+
+void changeVal(int &val) { val = 100; }
+
 int main() {
   int numberOne{1};
 
@@ -34,6 +39,21 @@ int main() {
 
   cout << line();
 
-  // you can change the value of a variable by function using pointers:
-  void changeValue(int *a) { *a = 120; }
+  int x{100};
+
+  changeValue(&x);
+  cout << x << "\n";
+
+  cout << line();
+
+  // a much esiter alternatave of above is to use refrence:
+  // in this what is happening is that even tho we are only changing val in the
+  // void function, we still is able to change to value of val2.
+
+  int val2{34};
+  changeVal(val2);
+
+  cout << val2 << "\n";
+
+  return 0;
 }
