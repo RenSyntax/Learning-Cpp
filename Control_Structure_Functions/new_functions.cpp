@@ -31,4 +31,9 @@ int main() {
   // this the syntax
   int &ref{numberOne};
   cout << ref << "\n";
+
+  cout << line();
+
+  // you can change the value of a variable by function using pointers:
+  void changeValue(int *a) { *a = 120; }
 }
