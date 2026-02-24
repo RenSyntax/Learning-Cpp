@@ -14,6 +14,7 @@ int balance{1000};
 // functions.
 
 // String Function, didnt knew it existed untill now 😅
+// you learn something new everyday......
 string userRecipt() {
   cout << "-------------------------\n";
   cout << "Your Balance Has updated\n";
