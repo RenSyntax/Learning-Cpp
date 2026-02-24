@@ -13,7 +13,9 @@ int add(int a, int b) { return a + b; }
 
 double add(double a, double b) { return a + b; }
 
-// here you can see the
+// here you can see that the name of both functions are same but they return
+// diffrent data type. this was a very simple example, you can go full creative
+// mode with what combinations or input combinations you can write.
 int main() {
   cout << add(3, 4) << "\n";
   cout << add(3.4, 4.5) << "\n";
