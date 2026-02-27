@@ -5,19 +5,14 @@
 using namespace std;
 
 int attendence{};
+int lectures{};
 int totalClass{};
-
-int calculatePercentage(int i) {
-
-  int percentage{(attendence / i) * 100};
-  return percentage;
-}
 
 int main() {
 
   while (true) {
     int userInput{};
-    int lectures{};
+
     cout << "Press 1: Add Attendence\n";
     cout << "Press 2: Remove Attendence\n";
     cout << "Press 3: Calculate Percentage\n";
@@ -46,8 +41,8 @@ int main() {
     case 3: {
       cout << "Enter Total Number Of Lectures: \n";
       cin >> totalClass;
-      cout << "Your Attendence Percentage is: "
-           << calculatePercentage(totalClass) << endl;
+      cout << "Your Attendence Percentage is: " << attendence * 100 / totalClass
+           << endl;
       break;
     }
     case 4: {
