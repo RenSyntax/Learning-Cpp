@@ -41,6 +41,8 @@ int main() {
     case 3: {
       cout << "Enter Total Number Of Lectures: \n";
       cin >> totalClass;
+
+      // Here is what i learned from this bug
       cout << "Your Attendence Percentage is: " << attendence * 100 / totalClass
            << endl;
       break;
