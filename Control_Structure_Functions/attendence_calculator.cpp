@@ -42,7 +42,9 @@ int main() {
       cout << "Enter Total Number Of Lectures: \n";
       cin >> totalClass;
 
-      // Here is what i learned from this bug
+      // Here is what i learned from this bug:
+      // you have to multiply specifically to one variable, otherwise it wont
+      // work.
       cout << "Your Attendence Percentage is: " << attendence * 100 / totalClass
            << endl;
       break;
