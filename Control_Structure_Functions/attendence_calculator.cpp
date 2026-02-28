@@ -12,7 +12,7 @@ int science{};
 int computerScience{};
 int english{};
 
-int subjects() {
+void subjects() {
 
   cout << "Please Enter The Number Of Lectures: ";
   cin >> lectures;
@@ -43,10 +43,10 @@ int subjects() {
     cout << "Updated Sucsessfully\n";
     break;
   }
-    default {
-      cout << "Please Enter A Valid Input\n";
-      break;
-    }
+  default: {
+    cout << "Please Enter A Valid Input\n";
+    break;
+  }
   }
 }
 
@@ -68,11 +68,7 @@ int main() {
 
     switch (userInput) {
     case 1: {
-      cout << "Enter The Number Of Lectures Attempted Today: ";
-      cin >> lectures;
-
-      attendence += lectures;
-      cout << "Attendence Added Sucsessfully.\n";
+      cout << subjects();
       break;
     }
 
