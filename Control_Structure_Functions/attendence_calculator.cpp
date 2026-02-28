@@ -101,23 +101,23 @@ void calculatePercentage() {
 
   switch (userInput2) {
   case 1: {
-    english -= lectures;
-    cout << "Updated Sucsessfully\n";
+    float percentage{english * 100.0 / totalClass};
+    cout << "Your Attendence is: " << percentage << " %" << endl;
     break;
   }
   case 2: {
-    maths -= lectures;
-    cout << "Updated Sucsessfully\n";
+    float percentage{maths * 100.0 / totalClass};
+    cout << "Your Attendence is: " << percentage << " %" << endl;
     break;
   }
   case 3: {
-    computerScience -= lectures;
-    cout << "Updated Sucsessfully\n";
+    float percentage{computerScience * 100.0 / totalClass};
+    cout << "Your Attendence is: " << percentage << " %" << endl;
     break;
   }
   case 4: {
-    science -= lectures;
-    cout << "Updated Sucsessfully\n";
+    float percentage{science * 100.0 / totalClass};
+    cout << "Your Attendence is: " << percentage << " %" << endl;
     break;
   }
   default: {
@@ -126,9 +126,37 @@ void calculatePercentage() {
   }
   }
   return;
+}
 
-  float percentage{attendence * 100.0 / totalClass};
-  cout << "Your Attendence is: " << percentage << " %" << endl;
+void totalAttendence() {
+  int userInput2{};
+  cout << "Which Subject ?\n";
+  cout << "1. English\n2. Maths\n3. Computer Science\n4. Science\n";
+  cin >> userInput2;
+
+  switch (userInput2) {
+  case 1: {
+    cout << "Your Attendence is: " << english;
+    break;
+  }
+  case 2: {
+    cout << "Your Attendence is: " << maths;
+    break;
+  }
+  case 3: {
+    cout << "Your Attendence is: " << computerScience;
+    break;
+  }
+  case 4: {
+    cout << "Your Attendence is: " << science;
+    break;
+  }
+  default: {
+    cout << "Please Enter A Valid Input\n";
+    break;
+  }
+  }
+  return;
 }
 
 int main() {
@@ -158,7 +186,7 @@ int main() {
       break;
     }
     case 4: {
-      cout << "Your Total Attendence is: " << attendence << endl;
+      totalAttendence();
       break;
     }
     default: {
