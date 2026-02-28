@@ -1,17 +1,21 @@
-#  My C++ Learning Journey
-(Only The Topics Needed For DSA)
+#  Personal Repo of Learning **C++**:
+This Repo contains all the code i wrote during my journey of learning **C++**.
+**C++** is my **First Programming Language**.
 
-This repository is a collection of my progress as I learn C++ (Only DSA Specific Topics). 
-I am documenting every step i take, from "Hello World" to complex data structures, every Sunday.
+##  Concepts Targets To Cover:
+- [x] Introduction To Cpp **Completed**
+- [x] C++ Basics **Completed**
+- [x] Operators in C++ **Completed**
+- [ ] Control Structures and Functions **In Progress**
+- [ ] Standard Template Library **Not Completed Yet**
 
-##  Concepts Targets To Master:
-- ✅ **Introduction To Cpp** Completed
-- ✅ **C++ Basics** Completed
-- ✅ **Operators in C++** Completed
--    **Control Structures and Functions** In Progress
--    **Standard Template Library (STL)**
+###  Repo Highlights:
+- **[Attendence Calculator](./Control_Structure_Functions/attendence_calculator.cpp):**
+  - Makes use of Functions and Loops.
 
-##  Project Highlights
-- **[ATM Simulator](./Operators/atm_simulator.cpp):** Uses if/else statements.
-- **[ATM Simulator V2](./Control_Structure_Functions/atm_with_loop.cpp)** Upgraded, Now uses loops. Took alot of time to make.
-- **[To-Do List](./Control_Structure_Function/to_do_list.cpp):** Simple To-do list Program Using if/else statement.
+- **[ATM Simulator](./Control_Structure_Functions/atm_with_loop.cpp)** 
+  - Makes use of Loops.
+
+- **[To-Do List](./Control_Structure_Function/to_do_list.cpp):** 
+  - Basic programme;
+  - Makes use of if/else Statements only.
