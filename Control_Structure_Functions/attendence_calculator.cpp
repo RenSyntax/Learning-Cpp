@@ -12,6 +12,7 @@ int science{};
 int computerScience{};
 int english{};
 
+// case 1
 void subjects() {
 
   cout << "Please Enter The Number Of Lectures: ";
@@ -51,6 +52,7 @@ void subjects() {
   return;
 }
 
+// case 2
 void subjects2() {
 
   cout << "Please Enter The Number Of Lectures: ";
@@ -90,6 +92,7 @@ void subjects2() {
   return;
 }
 
+// case 3
 void calculatePercentage() {
   cout << "Enter The Total Number of Lectures\n";
   cin >> totalClass;
@@ -128,6 +131,7 @@ void calculatePercentage() {
   return;
 }
 
+// case 4
 void totalAttendence() {
   int userInput2{};
   cout << "Which Subject ?\n";
