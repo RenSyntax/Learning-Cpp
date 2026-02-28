@@ -48,6 +48,46 @@ void subjects() {
     break;
   }
   }
+  return;
+}
+
+void subjects2() {
+
+  cout << "Please Enter The Number Of Lectures: ";
+  cin >> lectures;
+
+  int userInput2{};
+  cout << "Which Subject ?\n";
+  cout << "1. English\n2. Maths\n3. Computer Science\n4. Science\n";
+  cin >> userInput2;
+
+  switch (userInput2) {
+  case 1: {
+    english -= lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  case 2: {
+    maths -= lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  case 3: {
+    computerScience -= lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  case 4: {
+    science -= lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  default: {
+    cout << "Please Enter A Valid Input\n";
+    break;
+  }
+  }
+  return;
 }
 
 float calculatePercentage() {
@@ -68,16 +108,12 @@ int main() {
 
     switch (userInput) {
     case 1: {
-      cout << subjects();
+      subjects();
       break;
     }
 
     case 2: {
-      cout << "Enter The Number of Lectures, You Wana Remove: ";
-      cin >> lectures;
-
-      attendence -= lectures;
-      cout << "Attendence Updated.\n";
+      subjects();
       break;
     }
 
