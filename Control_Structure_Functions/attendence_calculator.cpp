@@ -8,6 +8,11 @@ int attendence{};
 int lectures{};
 int totalClass{};
 
+float calculatePercentage() {
+  float percentage{attendence * 100.0 / totalClass};
+  return percentage;
+}
+
 int main() {
 
   while (true) {
@@ -45,7 +50,7 @@ int main() {
       // Here is what i learned from this bug:
       // you have to multiply specifically to one variable, otherwise it wont
       // work.
-      cout << "Your Attendence Percentage is: " << attendence * 100 / totalClass
+      cout << "Your Attendence Percentage is: " << calculatePercentage() << " %"
            << endl;
       break;
     }
