@@ -90,9 +90,12 @@ void subjects2() {
   return;
 }
 
-float calculatePercentage() {
+void calculatePercentage() {
+  cout << "Enter The Total Number of Lectures\n";
+  cin >> totalClass;
+
   float percentage{attendence * 100.0 / totalClass};
-  return percentage;
+  cout << "Your Attendence is: " << percentage << " %" << endl;
 }
 
 int main() {
@@ -119,7 +122,6 @@ int main() {
 
     case 3: {
       cout << "Enter Total Number Of Lectures: \n";
-      cin >> totalClass;
 
       // Here is what i learned from this bug:
       // you have to multiply specifically to one variable, otherwise it wont
