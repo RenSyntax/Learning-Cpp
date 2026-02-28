@@ -94,6 +94,39 @@ void calculatePercentage() {
   cout << "Enter The Total Number of Lectures\n";
   cin >> totalClass;
 
+  int userInput2{};
+  cout << "Which Subject ?\n";
+  cout << "1. English\n2. Maths\n3. Computer Science\n4. Science\n";
+  cin >> userInput2;
+
+  switch (userInput2) {
+  case 1: {
+    english -= lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  case 2: {
+    maths -= lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  case 3: {
+    computerScience -= lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  case 4: {
+    science -= lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  default: {
+    cout << "Please Enter A Valid Input\n";
+    break;
+  }
+  }
+  return;
+
   float percentage{attendence * 100.0 / totalClass};
   cout << "Your Attendence is: " << percentage << " %" << endl;
 }
@@ -121,13 +154,7 @@ int main() {
     }
 
     case 3: {
-      cout << "Enter Total Number Of Lectures: \n";
-
-      // Here is what i learned from this bug:
-      // you have to multiply specifically to one variable, otherwise it wont
-      // work.
-      cout << "Your Attendence Percentage is: " << calculatePercentage() << " %"
-           << endl;
+      calculatePercentage();
       break;
     }
     case 4: {
