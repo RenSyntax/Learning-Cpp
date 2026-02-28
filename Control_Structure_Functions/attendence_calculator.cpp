@@ -7,6 +7,48 @@ using namespace std;
 int attendence{};
 int lectures{};
 int totalClass{};
+int maths{};
+int science{};
+int computerScience{};
+int english{};
+
+int subjects() {
+
+  cout << "Please Enter The Number Of Lectures: ";
+  cin >> lectures;
+
+  int userInput2{};
+  cout << "Which Subject ?\n";
+  cout << "1. English\n2. Maths\n3. Computer Science\n4. Science\n";
+  cin >> userInput2;
+
+  switch (userInput2) {
+  case 1: {
+    english += lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  case 2: {
+    maths += lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  case 3: {
+    computerScience += lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+  case 4: {
+    science += lectures;
+    cout << "Updated Sucsessfully\n";
+    break;
+  }
+    default {
+      cout << "Please Enter A Valid Input\n";
+      break;
+    }
+  }
+}
 
 float calculatePercentage() {
   float percentage{attendence * 100.0 / totalClass};
