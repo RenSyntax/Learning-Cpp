@@ -14,7 +14,7 @@ int main() {
 
   // this is a local variable
   // accessesable only in this function only.
-  int local{0949};
+  int local{949};
   cout << local << endl;
 
   // then there is a new type called static.
