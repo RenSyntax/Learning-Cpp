@@ -22,4 +22,9 @@ int main() {
   // can be very helpful in loops.
   static int staticVar{22424};
   cout << staticVar << endl;
+
+  ++staticVar;
+  cout << staticVar << endl;
+
+  return 0;
 }
