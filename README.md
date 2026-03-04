@@ -6,7 +6,7 @@ This Repo contains all the code i wrote during my journey of learning **C++**.
 - [x] Introduction To Cpp **Completed**
 - [x] C++ Basics **Completed**
 - [x] Operators in C++ **Completed**
-- [ ] Control Structures and Functions **In Progress**
+- [ ] Control Structures and Functions **In Progr**
 - [ ] Standard Template Library **Not Completed Yet**
 
 ###  Repo Highlights:
