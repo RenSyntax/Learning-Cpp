@@ -7,7 +7,7 @@ This Repo contains all the code i wrote during my journey of learning **C++**.
 - [x] C++ Basics **Completed**
 - [x] Operators in C++ **Completed**
 - [x] Control Structures and Functions **Completed**
-- [ ] Standard Template Library **Not Completed Yet**
+- [ ] Standard Template Library ****
 
 ###  Repo Highlights:
 - **[Attendence Calculator](./Control_Structure_Functions/attendence_calculator.cpp):**
